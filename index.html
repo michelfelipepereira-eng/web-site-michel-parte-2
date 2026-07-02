@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Relâmpago Marquinhos - O Mais Veloz</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #1a1a1a;
+            color: #ffffff;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+        header {
+            background: linear-gradient(135deg, #ff0000, #ffcc00);
+            padding: 40px 20px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+        }
+        header h1 {
+            margin: 0;
+            font-size: 3rem;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            text-shadow: 2px 2px 4px #000;
+        }
+        header p {
+            font-style: italic;
+            font-size: 1.2rem;
+            margin-top: 10px;
+            font-weight: bold;
+            color: #000;
+        }
+        .container {
+            max-width: 800px;
+            margin: 40px auto;
+            padding: 20px;
+            background-color: #262626;
+            border-radius: 12px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+            border-left: 5px solid #ff0000;
+            text-align: left;
+        }
+        h2 {
+            color: #ffcc00;
+            border-bottom: 2px solid #ff0000;
+            padding-bottom: 5px;
+            display: inline-block;
+            text-transform: uppercase;
+        }
+        p {
+            line-height: 1.6;
+            font-size: 1.1rem;
+            color: #dddddd;
+        }
+        .stats-table {
+            width: 100%;
+            margin-top: 20px;
+            border-collapse: collapse;
+        }
+        .stats-table th, .stats-table td {
+            padding: 12px;
+            border: 1px solid #444;
+            text-align: left;
+        }
+        .stats-table th {
+            background-color: #ff0000;
+            color: white;
+        }
+        .stats-table tr:nth-child(even) {
+            background-color: #333;
+        }
+        .image-gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            margin-top: 20px;
+        }
+        .image-container {
+            background-color: #1a1a1a;
+            border: 3px solid #ffcc00;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.5);
+        }
+        .image-container img {
+            width: 100%;
+            height: auto;
+            display: block;
+            transition: transform 0.3s ease;
+        }
+        .image-container img:hover {
+            transform: scale(1.05);
+        }
+        .image-caption {
+            padding: 10px;
+            font-size: 0.9rem;
+            text-align: center;
+            background-color: #262626;
+            color: #ffcc00;
+            font-weight: bold;
+        }
+        ul {
+            list-style-type: square;
+            padding-left: 20px;
+            line-height: 1.8;
+            font-size: 1.1rem;
+        }
+        ul li strong {
+            color: #ffcc00;
+        }
+        footer {
+            margin-top: 50px;
+            padding: 20px;
+            background-color: #111;
+            font-size: 0.9rem;
+            color: #777;
+        }
+        .catchphrase {
+            font-size: 1.5rem;
+            color: #ffcc00;
+            font-weight: bold;
+            margin: 30px 0;
+            text-align: center;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Relâmpago Marquinhos</h1>
+        <p>"Katchau!"</p>
+    </header>
+
+    <div class="container">
+        <h2>Quem é ele?</h2>
+        <p>O lendário <strong>Relâmpago Marquinhos</strong> (ou McQueen para os mais formais) é o carro de corrida mais rápido, focado e carismático que já passou pela Copa Piston. Com sua icônica pintura vermelha e o número 95 estampado na lateral, ele conquistou fãs por todo o mundo com sua velocidade absurda e sua evolução de um jovem arrogante para um verdadeiro campeão e mentor.</p>
+        
+        <p class="catchphrase">Veloz como uma centelha, dinâmico como um trovão!</p>
+
+        <h2>A Jornada do Campeão</h2>
+        <p>A carreira de Marquinhos mudou drasticamente após ele se perder na pacata cidade de <strong>Radiator Springs</strong>, localizada na histórica Rota 66. Lá, ele aprendeu o verdadeiro significado de amizade e humildade com o guincho Mate, a charmosa Sally e o lendário Doc Hudson (o antigo Fantástico Hudson Hornet), que se tornou seu mentor.</p>
+        <p>Mais tarde em sua vida, ele assumiu o papel de veterano e passou o bastão para a jovem e talentosa treinadora Cruz Ramirez, provando que o coração de um campeão vai muito além das pistas de corrida.</p>
+
+        </div>
+
+        <h2>Curiosidades Incríveis</h2>
+        <ul>
+            <li><strong>Inspirado em lendas:</strong> Seu design é uma mistura de um carro da NASCAR com curvas de um Ford GT40 e um Chevrolet Corvette.</li>
+            <li><strong>Origem do Nome original:</strong> O nome "McQueen" foi uma homenagem a Glenn McQueen, um talentoso animador da Pixar que faleceu em 2002.</li>
+            <li><strong>Treinamento na terra:</strong> Foi com o Doc Hudson que ele aprendeu o famoso truque de "virar para a esquerda para ir para a direita" para derrapar nas curvas de terra.</li>
+        </ul>
+
+        <h2>Ficha Técnica do Campeão</h2>
+        <table class="stats-table">
+            <thead>
+                <tr>
+                    <th>Característica</th>
+                    <th>Detalhes</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><strong>Número</strong></td>
+                    <td>95</td>
+                </tr>
+                <tr>
+                    <td><strong>Cor Predominante</strong></td>
+                    <td>Vermelho Reluzente com Adesivos de Raio</td>
+                </tr>
+                <tr>
+                    <td><strong>Patrocinador Principal</strong></td>
+                    <td>Rust-eze (Pomada para para-choques)</td>
+                </tr>
+                <tr>
+                    <td><strong>Títulos</strong></td>
+                    <td>7 Vezes Campeão da Copa Piston</td>
+                </tr>
+                <tr>
+                    <td><strong>Melhor Amigo</strong></td>
+                    <td>Tom Mate</td>
+                </tr>
+                <tr>
+                    <td><strong>Grandes Rivais</strong></td>
+                    <td>Chick Hicks e Jackson Storm</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <footer>
+        <p>&copy; 2026 - Fã-clube Oficial do Relâmpago Marquinhos. Feito com velocidade.</p>
+    </footer>
+
+</body>
+</html>
